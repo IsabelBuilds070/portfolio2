@@ -1,0 +1,247 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../porfolio2/fontawesome-free-7.1.0-web/css/all.min.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">Isabel <span>Builds</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1>Isabel Okam</h1>
+      <p class="hero-title">Full Stack Web Developer & UI/UX Designer</p>
+      <p class="hero-sub">CS Student based in Lagos, Nigeria 🌍<br/>Building for the web, one project at a time.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <div class="img-glow"></div>
+      <img src="../porfolio2/media/isabel.jpeg" alt="Isabel Okam"/>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-tag">About Me</div>
+    <div class="about-content">
+      <h2>I'm Isabel, I design, build & <em>figure it out.</em></h2>
+      <div class="about-text">
+        <p>I'm a Computer Science student and self-taught web developer based in Lagos, Nigeria 🌍. I specialise in Front-End Development, UI/UX Design and I'm actively expanding into Full Stack development  one project at a time.</p>
+        <p>I started my #100DaysOfCode journey and in just 4 days I've already built and deployed real projects including a live weather app and calculator. I believe in <strong>learning by doing</strong> and building in public no waiting until I'm "ready".</p>
+        <p>Beyond coding I bring real world experience in <strong>Customer Service</strong> and <strong>Tech Support</strong>  which means I don't just build things, I build things with the <em>user in mind</em>. I understand people, I solve problems and I communicate clearly.</p>
+        <p>I'm open to remote roles, freelance projects and collaborations worldwide 🌍</p>
+      </div>
+      <div class="about-highlights">
+        <div class="highlight"><span>🎓</span><p>CS Student</p></div>
+        <div class="highlight"><span>🌍</span><p>Lagos, Nigeria</p></div>
+        <div class="highlight"><span>💼</span><p>Open to Remote Roles</p></div>
+        <div class="highlight"><span>🎨</span><p>UI/UX Designer</p></div>
+        <div class="highlight"><span>🔧</span><p>Tech Support</p></div>
+        <div class="highlight"><span>🤝</span><p>Customer Service</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-tag">Skills</div>
+    <h2>What I Work With</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon">🎨</div>
+        <h3>Front-End</h3>
+        <ul>
+          <li><i class="devicon-html5-plain colored"></i> HTML ✅</li>
+          <li><i class="devicon-css3-plain colored"></i> CSS ✅</li>
+          <li><i class="devicon-javascript-plain colored"></i> JavaScript ✅</li>
+          <li><i class="devicon-responsive-line colored"></i> Responsive Design ✅</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">✏️</div>
+        <h3>UI/UX Design</h3>
+        <ul>
+          <li><i class="devicon-figma-plain colored"></i> Figma ✅</li>
+          <li>🖊️ Wireframing ✅</li>
+          <li>📱 Prototyping ✅</li>
+          <li>🔍 User Research ✅</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">⚙️</div>
+        <h3>Back-End</h3>
+        <ul>
+          <li><i class="devicon-php-plain colored"></i> PHP ✅</li>
+          <li><i class="devicon-nodejs-plain colored"></i> Node.js 📚</li>
+          <li>🔗 REST APIs 📚</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🗄️</div>
+        <h3>Database</h3>
+        <ul>
+          <li><i class="devicon-mysql-plain colored"></i> MySQL 📚</li>
+          <li><i class="devicon-mongodb-plain colored"></i> MongoDB 📚</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🛠️</div>
+        <h3>Tools</h3>
+        <ul>
+          <li><i class="devicon-git-plain colored"></i> Git ✅</li>
+          <li><i class="devicon-github-original colored"></i> GitHub ✅</li>
+          <li><i class="devicon-vscode-plain colored"></i> VS Code ✅</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🤝</div>
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>💬 Customer Service ✅</li>
+          <li>🔧 Tech Support ✅</li>
+          <li>🧩 Problem Solving ✅</li>
+          <li>📢 Communication ✅</li>
+        </ul>
+      </div>
+
+    </div>
+    <p class="skills-note">✅ Proficient &nbsp;|&nbsp; 📚 Currently Learning</p>
+  </section>
+
+  
+      <!-- PROJECTS -->
+<section class="projects" id="projects">
+  <div class="section-tag">Projects</div>
+  <h2>Things I've Built</h2>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-img weather">🌤️</div>
+      <div class="project-info">
+        <h3>WeatherVibes</h3>
+        <p>A real-time weather app built with HTML, CSS & JavaScript using a live weather API.</p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span>
+        </div>
+        <a href="https://isabelbuilds070.github.io/weatherchart" target="_blank" class="btn-primary small">View Live →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-img calc">🧮</div>
+      <div class="project-info">
+        <h3>Calculator App</h3>
+        <p>A clean functional calculator built with HTML, CSS and JavaScript with a sleek dark UI.</p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a href="https://isabelbuilds070.github.io/calculator" target="_blank" class="btn-primary small">View Live →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-img gym">🏋🏾‍♀️</div>
+      <div class="project-info">
+        <h3>Gym Landing Page</h3>
+        <p>A modern responsive gym landing page with bold design, clean sections and smooth layout.</p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span>
+        </div>
+        <a href="https://isabelbuilds070.github.io/nike" target="_blank" class="btn-primary small">View Live →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-img portfolio">💼</div>
+      <div class="project-info">
+        <h3>Portfolio Website</h3>
+        <p>This portfolio! Built with HTML, CSS, JavaScript and PHP contact form backend.</p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+        </div>
+        <a href="#" class="btn-primary small">You're Here →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="section-tag">Contact</div>
+  <h2>Let's Work Together</h2>
+  <p class="contact-sub">Have a project in mind? I'm open to freelance and remote roles 🌍</p>
+  
+  <div class="contact-grid">
+    
+    <div class="contact-info">
+      <div class="contact-item">
+        <span>📍</span>
+        <p>Lagos, Nigeria</p>
+      </div>
+      <div class="contact-item">
+        <span>✉️</span>
+        <a href="mailto:isabelokam739@gmail.com">isabelokam739@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <span>📱</span>
+        <a href="https://wa.me/2347011374102" target="_blank">WhatsApp Me</a>
+      </div>
+      <div class="contact-item">
+        <span>🐦</span>
+        <a href="https://twitter.com/IsabelOkam27698" target="_blank">Twitter @IsabelOkam27698</a>
+      </div>
+      <div class="contact-item">
+        <span>💼</span>
+        <a href="https://www.linkedin.com/in/isabel-okam-3b998836b?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">LinkedIn Isabel Okam</a>
+      </div>
+      <div class="contact-item">
+        <span>📘</span>
+        <a href="https://www.facebook.com/share/1Aopk9JMFc/?mibextid=wwXIfr" target="_blank">Facebook  Isabel Okam</a>
+      </div>
+      <div class="contact-item">
+        <span>💻</span>
+        <a href="https://github.com/isabelbuilds070" target="_blank">GitHub isabelbuilds070</a>
+      </div>
+    </div>
+
+    <form class="contact-form" action="contact.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required/>
+      <input type="email" name="email" placeholder="Your Email" required/>
+      <input type="text" name="subject" placeholder="Subject" required/>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-primary">Send Message 💌</button>
+    </form>
+    
+    <footer>
+        <p>&copy; 2026 Isabel Okam. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</section>
